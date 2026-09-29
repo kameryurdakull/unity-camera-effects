@@ -1,0 +1,6 @@
+{
+  "name": "CameraFramework.Runtime",
+  "rootNamespace": "CameraFramework",
+  "references": ["Unity.Cinemachine", "UniTask"],
+  "autoReferenced": true
+}
