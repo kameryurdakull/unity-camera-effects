@@ -15,6 +15,9 @@
 #
 .utmp/
 /[Ll]ibrary/
+/PackageValidation/
+/Assets/Screenshots/
+/Assets/Screenshots.meta
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/

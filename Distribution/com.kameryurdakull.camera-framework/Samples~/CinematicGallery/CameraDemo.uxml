@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="CameraDemo.uss" />
+    <ui:VisualElement name="hud" class="hud">
+        <ui:VisualElement class="header">
+            <ui:Label text="CAMERA / LAB" class="eyebrow" />
+            <ui:Label text="Frame the moment." class="title" />
+            <ui:Label text="A playable showcase of cinematic camera gestures." class="subtitle" />
+        </ui:VisualElement>
+        <ui:VisualElement class="section">
+            <ui:Label text="01  /  CAMERA ANGLES" class="section-title" />
+            <ui:VisualElement class="row">
+                <ui:Button name="view-overview" text="OVERVIEW" class="button" />
+                <ui:Button name="view-showcase" text="SHOWCASE" class="button" />
+                <ui:Button name="view-detail" text="DETAIL" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="section">
+            <ui:Label text="02  /  IMPACT &amp; MOTION" class="section-title" />
+            <ui:VisualElement class="row">
+                <ui:Button name="shake-subtle" text="SUBTLE SHAKE" class="button" />
+                <ui:Button name="shake-impact" text="IMPACT" class="button accent" />
+                <ui:Button name="shake-heavy" text="HEAVY SHAKE" class="button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="row">
+                <ui:Button name="recoil" text="RECOIL" class="button" />
+                <ui:Button name="focus" text="FOCUS" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="section">
+            <ui:Label text="03  /  LENS" class="section-title" />
+            <ui:VisualElement class="row">
+                <ui:Button name="fov-in" text="PUNCH IN" class="button" />
+                <ui:Button name="fov-out" text="PULL BACK" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label text="CAMERA FRAMEWORK    •    CINEMACHINE 3" class="footer" />
+    </ui:VisualElement>
+    <ui:Label text="INTERACTIVE DEMO   /   2026" class="corner" />
+</ui:UXML>

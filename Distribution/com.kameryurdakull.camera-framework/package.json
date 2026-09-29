@@ -1,0 +1,22 @@
+{
+  "name": "com.kameryurdakull.camera-framework",
+  "version": "1.0.0",
+  "displayName": "Camera Framework",
+  "description": "Reusable Cinemachine camera effects with UniTask, DOTween, VContainer and EventBus integration.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Kamer Yurdakull",
+    "url": "https://github.com/kameryurdakull"
+  },
+  "dependencies": {
+    "com.unity.cinemachine": "3.1.7",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Cinematic Gallery",
+      "description": "ProBuilder gallery with UI controls for shake, FOV, focus, recoil and camera blends.",
+      "path": "Samples~/CinematicGallery"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "CameraFramework.Integration",
+  "rootNamespace": "CameraFramework.Integration",
+  "references": ["CameraFramework.Runtime", "CameraFramework.EventBus", "Unity.Cinemachine", "VContainer", "UniTask"]
+}

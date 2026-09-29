@@ -1,0 +1,6 @@
+{
+  "name": "CameraFramework.Demo.Editor",
+  "rootNamespace": "CameraFramework.Editor",
+  "references": ["CameraFramework.Runtime", "CameraFramework.Demo", "Unity.Cinemachine", "Unity.ProBuilder", "VContainer"],
+  "includePlatforms": ["Editor"]
+}

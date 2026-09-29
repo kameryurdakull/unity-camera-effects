@@ -1,0 +1,6 @@
+{
+  "name": "CameraFramework.Editor",
+  "rootNamespace": "CameraFramework.Editor",
+  "references": ["CameraFramework.Runtime"],
+  "includePlatforms": ["Editor"]
+}
